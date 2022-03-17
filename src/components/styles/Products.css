@@ -3,15 +3,18 @@
     flex-direction: column;
     background-color: white;
     align-items: center;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     margin: 10px;
     padding: 20px;
+    width: 100%;
     max-height: 400px;
     min-width: 100px;
     z-index: 1;
 }
 
 .product__info {
+    text-align: left;
+    font-size: 1rem;
     height: 100px;
     margin-bottom: 15px;
 }
@@ -20,11 +23,15 @@
     margin-top: 5px;
 }
 
+.product__rating {
+    display: flex;
+}
+
 .product>img {
-    max-height: 200px;
+    max-height: 150px;
     width: 100%;
     object-fit: contain;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .product>button {
