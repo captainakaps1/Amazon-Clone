@@ -3,19 +3,17 @@
     flex-direction: column;
     background-color: white;
     align-items: center;
-    /* justify-content: flex-end; */
     margin: 10px;
     padding: 20px;
     width: 100%;
-    max-height: 400px;
+    max-height: auto;
     min-width: 100px;
     z-index: 1;
+    overflow: auto;
 }
 
 .product__info {
-    text-align: left;
     font-size: 1rem;
-    height: 100px;
     margin-bottom: 15px;
 }
 
