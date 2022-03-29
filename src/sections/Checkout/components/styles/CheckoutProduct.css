@@ -1,18 +1,20 @@
 .checkoutProduct {
     display: flex;
-    /* flex-wrap: wrap; */
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .checkoutProduct__image {
-    object-fit: contain;
-    width: 180px;
+    background-color: red;
+    object-fit: fill;
+    width: 120px;
     height: 180px;
+    flex: 20%;
 }
 
 .checkoutProduct__info {
     padding-left: 20px;
+    flex: 80%;
 }
 
 .checkoutProduct__info>button {
