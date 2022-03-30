@@ -5,8 +5,7 @@
 }
 
 .checkoutProduct__image {
-    background-color: red;
-    object-fit: fill;
+    object-fit: contain;
     width: 120px;
     height: 180px;
     flex: 20%;
